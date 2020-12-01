@@ -27,8 +27,6 @@ a {
   margin-right: auto;
 }
 .header {
-  display: flex;
-  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
@@ -48,7 +46,6 @@ a {
   margin-left: auto;
 }
 .top-address {
-  display: flex;
   margin-left: auto;
 }
 .top-address-list .item + .item {
