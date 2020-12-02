@@ -14,8 +14,15 @@ ul {
 .header {
   border-bottom: 1px solid #ececec;
 }
+.visually-hidden {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 /* <=== nav btn ===> */
-
+.portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
 .auto-nav-list {
   display: flex;
   justify-content: center;
@@ -78,7 +85,7 @@ ul {
   display: block;
 }
 .element:nth-child(n + 7) {
-  margin-bottom: 94px;
+  margin-bottom: 0px;
 }
 
 .description {

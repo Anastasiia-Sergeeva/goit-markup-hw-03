@@ -58,9 +58,9 @@ a {
 
 .navigation-list .link {
   display: block;
+  color: #212121;
 }
 
-.link,
 .header-mail,
 .header-phone {
   font-style: normal;
@@ -172,6 +172,9 @@ a {
 .about {
   padding-bottom: 94px;
 }
+.about-list {
+  display: flex;
+}
 .about-title {
   text-align: center;
   margin-top: 0;
@@ -190,6 +193,9 @@ a {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
+}
+.team-list {
+  display: flex;
 }
 .team-list-item {
   padding-bottom: 30px;
@@ -223,16 +229,10 @@ a {
 /* <=== FOOTER ===> */
 .footer {
   background-color: #2f303a;
-}
-.footer-container {
-  width: 1230px;
-  padding-left: 15px;
-  padding-right: 15px;
   padding-top: 60px;
   padding-bottom: 60px;
-  margin-left: auto;
-  margin-right: auto;
 }
+
 .bottom-address {
   margin-top: 20px;
 }
